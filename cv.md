@@ -1,10 +1,13 @@
 # Kiryl Tserpilouski
 
+### Junior Front-end Developer
+
 ## Contact:
 
-- tel. +48736768348,
-- Discord: blueberry#2997,
-- email: terpilovskikirill@gmail.com,
+- tel. +48736768348
+- Discord: blueberry#2997
+- Telegram: @B4ern14ka
+- email: terpilovskikirill@gmail.com
 
 ## About me:
 
@@ -14,29 +17,43 @@ and a bit crazy. All my experience is in creating home projects.
 
 ## Skills:
 
-- JavaScript,
-- CSS, SASS, SCSS,
-- HTML,
-- BEM methodology,
-- React,
-- github,
+- JavaScript
+- CSS, SASS, SCSS
+- HTML
+- BEM methodology
+- React (beginner)
+- Github, Vercel
 
 ## My experience:
 
 I invite you to visit my **[GitHub](https://github.com/Tserpilouski)** and see the projects I've been working on. There you will find a **[simple calculator](https://github.com/Tserpilouski/calculator-from-iPhone)**, a website with **[online courses](https://github.com/Tserpilouski/online_course)**, **[TO DO LIST](https://github.com/Tserpilouski/TO-DO-LIST)** and much more.
 
+## CodeWars:
+
+**[Does my number look big in this?](https://www.codewars.com/kata/5287e858c6b5a9678200083c)**
+function narcissistic(value) {
+let arValue = value.toString().split("");
+let n = arValue.length;
+map1 = arValue.map(x => x \*\* n);  
+ let ans = map1.reduce((a,b) => a + b);
+if(value == ans){
+return true
+}
+else{return false}
+}
+
 ## Education:
 
-- Opole University of Technology, Mechatronics (Degree obtained: engineer),
-- Opole University of Technology, Informatics (Continues studies),
+- Opole University of Technology, Mechatronics (Degree obtained: engineer)
+- Opole University of Technology, Informatics (Continues studies)
 
 ## Language skills:
 
-- English (B1),
-- Polish (B2),
+- English (B1)
+- Polish (B2)
 
 ## Tools I use:
 
-- VScode,
-- Postman,
-- Figma,
+- VScode
+- Postman
+- Figma
