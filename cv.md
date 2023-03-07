@@ -31,16 +31,19 @@ I invite you to visit my **[GitHub](https://github.com/Tserpilouski)** and see t
 ## CodeWars:
 
 **[Does my number look big in this?](https://www.codewars.com/kata/5287e858c6b5a9678200083c)**
+
+```
 function narcissistic(value) {
-let arValue = value.toString().split("");
-let n = arValue.length;
-map1 = arValue.map(x => x \*\* n);  
- let ans = map1.reduce((a,b) => a + b);
-if(value == ans){
-return true
+    let arValue = value.toString().split("");
+    let n = arValue.length;
+    map1 = arValue.map(x => x \*\* n);
+    let ans = map1.reduce((a,b) => a + b);
+    if(value == ans){
+    return true
+    }
+    else{return false}
 }
-else{return false}
-}
+```
 
 ## Education:
 
