@@ -4,7 +4,7 @@
 
 - tel. +48736768348,
 - Discord: blueberry#2997,
-- email: terpilovskikirill@gmail.com
+- email: terpilovskikirill@gmail.com,
 
 ## About me:
 
@@ -19,7 +19,7 @@ and a bit crazy. All my experience is in creating home projects.
 - HTML,
 - BEM methodology,
 - React,
-- github
+- github,
 
 ## My experience:
 
@@ -27,10 +27,16 @@ I invite you to visit my **[GitHub](https://github.com/Tserpilouski)** and see t
 
 ## Education:
 
-- Politechnika Opolska, Mechatronika (Degree obtained: engineer),
-- Politechnika Opolska, Informatyka (Continues studies)
+- Opole University of Technology, Mechatronics (Degree obtained: engineer),
+- Opole University of Technology, Informatics (Continues studies),
 
 ## Language skills:
 
 - English (B1),
 - Polish (B2),
+
+## Tools I use:
+
+- VScode,
+- Postman,
+- Figma,
