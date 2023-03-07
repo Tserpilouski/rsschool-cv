@@ -15,7 +15,7 @@ and a bit crazy. All my experience is in creating home projects.
 ## Skills:
 
 - JavaScript,
-- SASS, SCSS,
+- CSS, SASS, SCSS,
 - HTML,
 - BEM methodology,
 - React,
