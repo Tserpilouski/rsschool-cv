@@ -42,3 +42,54 @@ header h1 {
     font-size: 1.1rem;
     opacity: 0.85;
 }
+
+nav {
+    background-color: #343a40;
+    border-radius: 0 0 12px 12px;
+    padding: 12px 20px;
+    margin-bottom: 30px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px 20px;
+}
+
+nav a {
+    color: #ccc;
+    text-decoration: none;
+    font-size: 0.95rem;
+    transition: color 0.2s;
+}
+
+nav a:hover {
+    color: #fff;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+section {
+    background: #fff;
+    border-radius: 10px;
+    padding: 24px 28px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+h2 {
+    font-size: 1.35rem;
+    color: #2b5876;
+    margin-bottom: 12px;
+    padding-bottom: 6px;
+    border-bottom: 2px solid #e9ecef;
+}
+
+section p {
+    font-size: 0.95rem;
+}
