@@ -14,7 +14,7 @@
                 alt="Photo of Kiryl Tserpilouski"
             />
             <h1>Kiryl Tserpilouski</h1>
-            <p class="subtitle">Junior Frontend Developer</p>
+            <p class="subtitle">Full Stack Developer</p>
         </header>
         <nav>
             <ul>
@@ -77,6 +77,54 @@
                         >
                     </li>
                 </ul>
+            </section>
+            <section id="skills">
+                <h2>Skills</h2>
+                <ul>
+                    <li>
+                        <strong>Frontend:</strong> React, Redux Toolkit, React
+                        Hook Form, React Router, TypeScript, Vue 3, Nuxt 3, Vue
+                        Router, Pinia, JavaScript, HTML, CSS/Sass, Tailwind,
+                        Material UI, Vuetify 3, Responsive Web Design (RWD)
+                    </li>
+                    <li>
+                        <strong>Backend &amp; DB:</strong> Node.js, Express.js,
+                        REST API, PostgreSQL, MongoDB, MySQL
+                    </li>
+                    <li>
+                        <strong>Tools &amp; DevOps:</strong> Git, Vite, Docker,
+                        GitLab, Jest, Vitest, Storybook, ESLint, Husky, Prettier
+                    </li>
+                </ul>
+            </section>
+            <section id="code">
+                <h2>Code Examples</h2>
+                <p>
+                    A function that returns the top three most frequent words in a given text.
+                    <a href="https://www.codewars.com/kata/51e056fe544cf36c410000fb" target="_blank">Try it on Codewars</a>
+                </p>
+                <pre><code>function topThreeWords(text) {
+  let objWithWords = {};
+
+  text.split(" ").forEach((word) =&gt; {
+    if (objWithWords[word.toLowerCase().replace(/[#\/\.]/g, "")]) {
+      objWithWords[word.toLowerCase().replace(/[#\/\.]/g, "")]++;
+    } else if (word !== "," &amp;&amp; word !== "'" &amp;&amp; word !== "") {
+      objWithWords[word.toLowerCase().replace(/[#\/\.]/g, "")] = 1;
+    }
+  });
+
+  let ansEnd;
+  let ans = Object.entries(objWithWords).sort((a, b) =&gt; b[1] - a[1]);
+
+  if (ans.length &lt;= 3) {
+    ansEnd = ans.map((elem) =&gt; elem[0]);
+  } else {
+    ansEnd = ans.slice(0, -(ans.length - 3)).map((elem) =&gt; elem[0]);
+  }
+
+  return ansEnd.filter((elem) =&gt; elem !== "");
+}</code></pre>
             </section>
         </main>
     </body>
