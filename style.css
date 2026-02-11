@@ -90,6 +90,12 @@ h2 {
     border-bottom: 2px solid #e9ecef;
 }
 
+section h3 {
+    font-size: 1.1rem;
+    color: #4e4376;
+    margin-top: 16px;
+}
+
 section p {
     font-size: 0.95rem;
     margin-bottom: 12px;
@@ -103,4 +109,43 @@ section ul {
 section li {
     margin-bottom: 6px;
     font-size: 0.95rem;
+}
+
+pre {
+    overflow-x: auto;
+    background-color: #f4f6f8;
+    padding: 16px;
+    border-radius: 8px;
+    font-size: 0.85rem;
+    line-height: 1.5;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 30px;
+    padding: 20px;
+    background: linear-gradient(135deg, #2b5876, #4e4376);
+    border-radius: 12px;
+    color: #fff;
+    font-size: 0.9rem;
+}
+
+footer a {
+    color: #ccc;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    transition: color 0.2s;
+}
+
+footer a:hover {
+    color: #fff;
+}
+
+.rs-logo {
+    height: 24px;
 }
